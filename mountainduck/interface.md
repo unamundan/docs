@@ -74,9 +74,26 @@ Assign multiple labels to bookmarks. Bookmarks are grouped in folders in the sta
 
 ### Connect Mode
 
-- **Default:** Use setting from *Preferences*
-- **Online:** Do not synchronize any file to your computer. You can only access this volume when a connection is possible to the server or cloud storage. Files are accessed on demand from the remote when opened and do not take up any local disk space.
-- **Smart Synchronization:** Directories can be browsed when offline and files opened are made available for later offline access. You can explicitly make files available offline using the [context menu](sync/index.md#keep-offline). See [Smart Synchronization](sync/index.md).
+You can change the synchronization options for a bookmark with *Connect Mode*. Choose _Default_ to use the setting from _Preferences → Sync_. The _Online_ and _Smart Synchronization_ connect modes mount a volume like a network attached disk. The _Integrated_ connect mode synchronizes files and folders from a directory on the local disk with support from macOS and Windows.
+
+```{admonition} Windows Store
+:class: tip
+The connect mode _Online_ and _Smart Synchronization_ are supported in Mountain Duck available from the Windows Store.
+```
+
+#### Online
+Do not synchronize any file to your computer. You can only access this volume when a connection is possible to the server or cloud storage. Files are accessed on demand from the remote when opened and do not take up any local disk space.
+
+#### Smart Synchronization
+Directories can be browsed when offline and files opened are made available for later offline access. Upload changes in the background when server is reachable. You can explicitly make files available offline using the [context menu](sync/index.md#keep-offline). See [Smart Synchronization](sync/index.md).
+
+#### Integrated
+
+```{admonition} Version 5
+:class: note
+Mountain Duck 5 or later required for _Integrated_ connect mode.
+```
+Local storage is managed by the operating system. The mount is not seen as a remote volume by applications but as a regular folder on disk. This option uses the tightly integrated _File Provider_ (macOS) and _Cloud Files_ (Windows) APIs.
 
 ### Read-Only Volume
 
