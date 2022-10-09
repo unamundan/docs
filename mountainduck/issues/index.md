@@ -202,7 +202,7 @@ As a utility application with no application windows, no icon is displayed in th
 Navigate to volumes using `⌘⇧C` in a *Finder.app* window or choose *Finder → Preferences ... → General → Show these items on the desktop: Connected Servers* to make the volume appear on the desktop. Mounted volumes are also listed in the *Finder.app* sidebar in *Favorites*.
 
 **Search in Finder.app (Spotlight)**<br/>
-The Spotlight indexer does not work on remote volumes.
+The Spotlight indexer does not work on mounted volumes with _Online_ or _Smart Synchronization_ connect mode. Use the _Integrated_ connect mode to allow searching files with Spotlight.
 
 **Multiple Mountain Duck Finder Extensions Processes**<br/>
 The system may launch additional copies of *Mountain Duck Finder Extension* whenever an Open or Save dialog is displayed. This means there may be multiple copies of the extension running at once, and some may be very short-lived.
