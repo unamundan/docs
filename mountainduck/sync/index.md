@@ -23,11 +23,7 @@ The smart sync feature allows making files available offline. You can also choos
 
 ## Bookmark Options
 
-You can change the synchronization options for a bookmark in *Connect Mode*.
-
-- *Default:* Use setting from *Preferences*
-- *Online:* Do not synchronize any files to your computer. You can only access this volume when a connection is possible to the server or cloud storage. Files are accessed on demand from the remote when opened and do not take up any local disk space.
-- *Smart Synchronization:* Files opened are made available for later offline access. You can explicitly make files available offline using the [context menu](#keep-offline).
+You can change the synchronization options for a bookmark in *[Connect Mode](../interface.md#connect-mode)*.
 
 ## Status of Files
 
