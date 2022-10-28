@@ -29,7 +29,8 @@ You can change the synchronization options for a bookmark in *[Connect Mode](../
 
 Files and folders on a mounted volume have a status icon overlay in File Explorer (Windows) and Finder (macOS).
 
-```{note}
+```{admonition} macOS only
+:class: note
 Please make sure to enable the Mountain Duck [Integration](../installation/index.md) in *System Preferences → Extensions → Finder* on macOS.
 ```
 
@@ -62,6 +63,17 @@ The file is only saved in a local temporary location and never synced to the ser
 ```{tip}
 Rename a file to synchronize with the server.
 ```
+
+```{admonition} macOS only
+:class: note
+An additional icon next to the filename is displayed in Finder denoting the synchronization status in _Integrated_ connect mode.
+<br/>![](../_images/File_Provider_Online_Only.png) **Online Only**
+<br/>![](../_images/File_Provider_Ignored.png) **Ignored**
+<br/>![](../_images/File_Provider_Error.png) **Sync Error**
+
+Additionally, progress is shown when downloading or uploading a file with a progress bar over the file icon or circular progress indicator adjacent the filename. 
+```
+
 
 ## Context Menu Options
 ```{image} ../_images/Mountain_Duck_Screenshot_Finder_Dark.png
