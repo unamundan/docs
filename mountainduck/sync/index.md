@@ -89,6 +89,12 @@ Please make sure to enable the Mountain Duck [Integration](../interface.md#conte
 
 ### Keep Offline
 
+```{admonition} macOS only
+:class: tip
+
+Choose _Download Now_ when using _Integrated_ connect mode to download the file but allow it to be removed from cache on low disk space. 
+```
+
 Choose *Mountain Duck → Keep Offline on Local Disk* to make files and folders available offline. The status of the file will change to *In Sync*. The action is recursive for all contained files when a folder is selected and applies to new files found on the remote storage.
 
 ```{image} ../_images/Sync_Context_Menu_macOS.png
@@ -103,6 +109,12 @@ As long as the volume is mounted, files marked _Up to Date_ or _In Sync_ with a 
 To reach the context menu right-click on a file or folder in File Explorer (Windows) or Finder (macOS). Refer to [Finder Extension & Windows File Explorer Extension](../interface.md#context-menu-in-finder-and-windows-file-explorer).
 
 ### Delete on Local Disk
+
+```{admonition} macOS only
+:class: tip
+
+Choose _Remove Download_ instead when using _Integrated_ connect mode.
+```
 
 Choose *Mountain Duck → Delete on Local Disk* to delete the offline copy. The status of the file will change to *Online Only*. The action is recursive for all contained files when a folder is selected and allows you to quickly free up space used in the cache on your local disk.
 
